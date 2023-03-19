@@ -1,0 +1,14 @@
+{  
+     
+    "auth":{
+        "ErrorMessage":"",
+        "loading":false
+    },
+    "trip":{
+        "id":null,
+        "title":""
+    },
+    "tripDetails":null,
+    "schedule":[],
+    "responsib":[]
+}

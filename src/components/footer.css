@@ -1,0 +1,10 @@
+.foot{
+    height: 78px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo{
+    margin:10px;
+}

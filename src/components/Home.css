@@ -1,0 +1,16 @@
+.home{
+    font-family: 'Hanalei Fill', cursive;
+}
+h1,h5{
+    text-align: center;
+    margin:10px;
+}
+.featured-title{
+text-align: center;
+}
+.ht{
+    height:400px;
+}
+.white{
+color: white;
+}

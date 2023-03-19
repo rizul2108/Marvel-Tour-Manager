@@ -1,0 +1,24 @@
+.tripPreview{
+text-align: center;
+}
+.accordion{
+    width: 600px;
+margin: auto;
+text-align: center;
+}
+.accordion-button{
+text-align: center;
+}
+.tripPreview.buton{
+    width:140px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.details{
+    font-size: 25px;
+}
+.buton{
+    margin-bottom:15px;
+    margin-right:8px;
+    margin-left:8px;
+}

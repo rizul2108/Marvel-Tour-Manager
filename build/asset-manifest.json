@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d0fb4a55.css",
+    "main.js": "/static/js/main.0b354e3f.js",
+    "static/media/aboutUs.png": "/static/media/aboutUs.c68cf25de1c855df7768.png",
+    "static/media/img3.jpg": "/static/media/img3.ad8a43e0b3b4a8d3f766.jpg",
+    "static/media/img2.jpg": "/static/media/img2.66d0bed663c6b9fbf088.jpg",
+    "static/media/github.png": "/static/media/github.6b3ce82d6308cade5843.png",
+    "static/media/editable.png": "/static/media/editable.8bd950be0d31fa42c60e.png",
+    "static/media/img1.jpg": "/static/media/img1.370c9234eb07705522ee.jpg",
+    "static/media/quality.png": "/static/media/quality.1ac803a89e4abada8baf.png",
+    "static/media/memory.png": "/static/media/memory.3d0095922529a0f2f076.png",
+    "static/media/award.png": "/static/media/award.241882b764952baefa86.png",
+    "static/media/linkedin.png": "/static/media/linkedin.14af83f2db41a42c8e0d.png",
+    "index.html": "/index.html",
+    "main.d0fb4a55.css.map": "/static/css/main.d0fb4a55.css.map",
+    "main.0b354e3f.js.map": "/static/js/main.0b354e3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0fb4a55.css",
+    "static/js/main.0b354e3f.js"
+  ]
+}
