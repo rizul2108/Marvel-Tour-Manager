@@ -6,6 +6,9 @@ Now I wanted to save responsibilities and schedule of each trip to firebase and 
 ## Visit my website using given link
 [Here is the link](https://marvel-tours-manager.netlify.app/)
 
+## Live Video Demo of this Project
+[Here is the link](https://www.loom.com/share/b1068de3e1ac425895c760c18c77f5f9)
+
 ## **Languages Used**
 1. Javascript
 2. CSS
