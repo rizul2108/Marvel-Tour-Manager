@@ -6,16 +6,16 @@ import {getFirestore} from "firebase/firestore"
 import * as authActions from "../redux/actions/authActions";
 import { connect } from "react-redux";
 import { getAuth } from "firebase/auth";
+import React,{useState} from "react";
 
 const Dashboard = ({ children },props) => {
   const auth=getAuth();
   const user=auth.currentUser;
-  const displayName=user.displayName;
-  const picURL=user.photoURL;
+  const displayName=user.displayName;  
+  const picURL=user.photoURL;  
   const email=user.email;
   const handleLogOut = () => {
-    props.signOut();
-  };
+    props.signOut();}
   return (
     <div>
       <Container id="dash">

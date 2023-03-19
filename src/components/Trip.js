@@ -6,15 +6,15 @@ export default function Trip(props) {
   return (
     <div className='my-2 mx-2'>
         <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+    <Card.Img variant="top" src="https://thumbs.dreamstime.com/b/rear-view-friends-road-trip-driving-convertible-car-67525217.jpg" />
     <Card.Body>
-      <Card.Title>{props.title}</Card.Title>
+      <Card.Title><h3>Let's Go</h3></Card.Title>
       </Card.Body>
     <ListGroup className="list-group-flush">
-      <ListGroup.Item>Destination :</ListGroup.Item>
-      <ListGroup.Item>From:</ListGroup.Item>
-      <ListGroup.Item>To: </ListGroup.Item>
-      <ListGroup.Item>Members:</ListGroup.Item>
+      <ListGroup.Item>Destination : Paris</ListGroup.Item>
+      <ListGroup.Item>From: 21 March</ListGroup.Item>
+      <ListGroup.Item>To: 26 March</ListGroup.Item>
+      <ListGroup.Item>Members: 6</ListGroup.Item>
     </ListGroup>
     <Card.Body>
       <Card.Link href="#">See Details</Card.Link>

@@ -31,10 +31,8 @@ function Navbar(props) {
   // const id = user.uid;
   const auth = props.auth;
   const user=auth.currentUser;
-// const picURL=user.uid;
   const handleLogOut = () => {
     props.signOut();}
-  // let ProfPicURL=Storage.ref("images").child(id).getDownloadURL();
   return (
     <nav className="navbar navbar-expand-lg bg-light navbar-light py-4">
       <div className="container-fluid">

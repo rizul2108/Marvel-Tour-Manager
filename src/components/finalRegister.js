@@ -25,7 +25,7 @@ function FinalRegister(props) {
   const [err,setErr]=useState("");
   const [def,setDeflt]=useState(false);
   const [username,setUsername]=useState("");
-  const [url,setURL]=useState("");
+  const [url,setURL]=useState("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlf26-P4BSopUQrgSpw5dCKDLbGAyhHO6Kzw&usqp=CAU");
   const handleUsername = (e) => {
     setUsername(e.target.value);
   };
