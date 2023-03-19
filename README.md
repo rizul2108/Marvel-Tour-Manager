@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Marvel Tour Manager
+It is a Tour Manager Website for Avengers. For making this website I have used react.js for frontend and firebase as a backend service. I have used redux to maintain state of the fields where the user enters any info. I have also given option to user to upload his username and his profile picture or choose default profile picture.(Although this functionality was working fine but now it is giving me error after hosting it on netlify). Now user is taken to dashboard after registering where he is shown the previous trips he was part of. .While adding a trip user is asked to enter title for trip which is required field if he doesn't fill he can't move ahead.On moving on to next page user can enter other details of the trip like Destination, Start Date ,End Date, No. of Members of the Trip. On next page, number of cards are shown to user equal to the number of days between these 2 dates in which user can enter activities he want to do on particular day and below it is number of cards equal to number of members going to trip so that they can be assigned responsibilities. On Next Page, user is shown the preview of whole trip and he can now go back if he wants to change any particular detail of the trip except the title. Now, on clicking the save the trip button in last the trip details are saved to firebase . Earlier during all this navigation the details are saved to redux store. At only last stage detials will saved to firebase.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Now I wanted to save responsibilities and schedule of each trip to firebase and show them on next page but I wasn't able to figure it out how to do it. So, I thought that I would work on this feature later And later I also came to know about many-to-many just 1 day before submission. So I will work on it after submission and try to make the website fully functional. Other feature I left to add is show all the trips user was part of in Previous Trips and Upcoming Trips panel in dashboard.
 
-## Available Scripts
+## Visit my website using given link
+[Here is the link](https://marvel-tours-manager.netlify.app/)
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## **Languages Used**
+1. Javascript
+2. CSS
+3. React JS
+( Redux )
+4. Bootstrap
+## Dependencies
+- npm i uuid 
+- npm i redux react-redux redux-devtools-extension
+- npm i redux-firestore react-redux-firebase
+- npm i redux-thunk
+- npm i firebase
+- npm i react-dom 
